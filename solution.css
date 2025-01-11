@@ -1,0 +1,9 @@
+/* Corrected CSS using calc() */
+#element {
+  width: calc(100vw - 20px);
+  /* Correct parentheses and operator placement */
+}
+/*Another example using calc() correctly */
+.container {
+  width: calc((100% - 20px) / 3);
+}
